@@ -1,0 +1,29 @@
+# Core FastAPI dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+sqlalchemy==2.0.23
+alembic==1.12.1
+pydantic==2.5.0
+python-multipart==0.0.6
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.0
+httpx==0.25.2
+
+# Data science packages (using versions with Windows wheels)
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.1.0
+
+# Xero integration
+xero-python==6.1.0
+
+# Optional: Advanced statistics (may require additional setup on Windows)
+# statsmodels==0.14.0     # Uncomment if needed
+
+# Optional: Install these for production with PostgreSQL
+# psycopg2-binary==2.9.9  # Uncomment for PostgreSQL support
+# supabase==2.0.2         # Uncomment for Supabase integration
+
+# Optional: Install Prophet for advanced forecasting (requires additional setup)
+# prophet==1.1.5          # Uncomment if you want Prophet forecasting

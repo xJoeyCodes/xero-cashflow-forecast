@@ -1,0 +1,20 @@
+# Minimal requirements for Windows - Quick Start
+# This version skips some data science packages that can be problematic on Windows
+
+# Core FastAPI dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+sqlalchemy==2.0.23
+pydantic==2.5.0
+python-multipart==0.0.6
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.0
+httpx==0.25.2
+
+# Basic data handling (these usually work on Windows)
+# pandas>=1.5.0  # Uncomment if pandas installs successfully
+# numpy>=1.21.0  # Uncomment if numpy installs successfully
+
+# Xero integration
+xero-python==6.1.0

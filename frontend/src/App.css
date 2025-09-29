@@ -1,0 +1,45 @@
+/* Additional custom styles */
+.chart-container {
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
+
+.kpi-card {
+  @apply bg-white rounded-lg shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow duration-200;
+}
+
+.scenario-slider {
+  @apply w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer;
+}
+
+.scenario-slider::-webkit-slider-thumb {
+  @apply appearance-none w-4 h-4 bg-primary-600 rounded-full cursor-pointer;
+}
+
+.scenario-slider::-moz-range-thumb {
+  @apply w-4 h-4 bg-primary-600 rounded-full cursor-pointer border-0;
+}
+
+.loading-skeleton {
+  @apply animate-pulse bg-gray-200 rounded;
+}
+
+.transaction-row:hover {
+  @apply bg-gray-50;
+}
+
+.forecast-chart {
+  @apply w-full h-80;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .chart-container {
+    height: 250px;
+  }
+  
+  .forecast-chart {
+    @apply h-64;
+  }
+}
